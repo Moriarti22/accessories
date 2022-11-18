@@ -43,9 +43,10 @@ img {
   font-family: "Roboto";
   width: 320px;
   margin: 0 auto;
-  padding-top: 40px;
+  padding-top: 144px;
   padding-bottom: 48px;
   background-image: url(../images/accesories/background-accesories.jpg);
+  background-size: contain;
 }
 
 .accessories-title {
@@ -62,6 +63,12 @@ img {
   margin-bottom: 32px;
 }
 
+.accessories-button {
+  min-width: 124px;
+  border: 1px solid #86E543;
+  border-radius: 16px;
+}
+
 .accessories-item:not(:last-child) {
   margin-bottom: 24px;
 }
@@ -69,6 +76,9 @@ img {
 .accessories-thumb {
   position: relative;
   overflow: hidden;
+  border-radius: 12px;
+  border: 1px solid #86E543;
+  box-shadow: 0px 4px 4px rgba(134, 229, 67, 0.2);
 }
 
 .accessories-txt {
@@ -79,7 +89,6 @@ img {
   width: 100%;
   font-size: 14px;
   line-height: 1.14;
-  border-radius: 12px;
   height: 100%;
   top: 0;
   left: 0;
