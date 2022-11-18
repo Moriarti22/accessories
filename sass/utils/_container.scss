@@ -1,15 +1,15 @@
 .container {
     margin: 0 auto;
-    padding-right: 15px;
-    padding-left: 15px;
-    width: $mobile;
+    padding-right: 18px;
+    padding-left: 17px;
+    width: 320px;
+    outline: 1px solid tomato;
+    // @media screen and (min-width: $tablet) {
+    //     width: $tablet;
+    // }
 
-    @media screen and (min-width: $tablet) {
-        width: $tablet;
-    }
-
-    @media screen and (min-width: $desktop) {
-        width: $desktop;
-    }
+    // @media screen and (min-width: $desktop) {
+    //     width: $desktop;
+    // }
 
 }
