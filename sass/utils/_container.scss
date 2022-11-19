@@ -1,11 +1,12 @@
 .container {
-    margin: 0 auto;
     padding-right: 18px;
     padding-left: 17px;
-    outline: 1px solid tomato;
-    // @media screen and (min-width: $tablet) {
-    //     width: $tablet;
-    // }
+
+    @media screen and (min-width: $tablet) {
+        width: $tablet;
+        padding-right: 40px;
+        padding-left: 40px;
+    }
 
     // @media screen and (min-width: $desktop) {
     //     width: $desktop;
