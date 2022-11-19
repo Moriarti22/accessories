@@ -1,4 +1,7 @@
 .accessories {
+  position: absolute;
+  left: 0;
+  top: 0;
   min-width: 320px;
   max-width: 480px;
   margin: 0 auto;
@@ -7,6 +10,11 @@
   background-image: url(../src/images/accesories/background-accesories.jpg);
   background-repeat: no-repeat;
   background-size: cover;
+}
+
+.accessories-item:nth-child(2n+2) {
+  display: none;
+   tablet
 }
 
 .accessories-title {
