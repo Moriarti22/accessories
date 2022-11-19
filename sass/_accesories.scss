@@ -1,12 +1,13 @@
 
 .accessories {
     font-family: 'Roboto';
-    width: 320px;
+    min-width: 320px;
+    max-width: 480px;
     margin: 0 auto;
     padding-top: 144px;
     padding-bottom: 48px;
     background-image: url(../images/accesories/background-accesories.jpg);
-    background-size: contain;
+    background-size: cover;
 }
 
 .accessories-title {

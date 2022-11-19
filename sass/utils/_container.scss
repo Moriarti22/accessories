@@ -2,7 +2,8 @@
     margin: 0 auto;
     padding-right: 18px;
     padding-left: 17px;
-    width: 320px;
+    min-width: 320px;
+    max-width: 480px;
     outline: 1px solid tomato;
     // @media screen and (min-width: $tablet) {
     //     width: $tablet;
