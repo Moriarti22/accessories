@@ -62,8 +62,8 @@ body {
   margin-right: auto;
   min-width: 320px;
   max-width: 480px;
-  padding-top: 164px;
-  padding-bottom: 449px;
+  padding-top: 40px;
+  padding-bottom: 48px;
   background-image: url(../src/images/accesories/background-mobile.jpg);
   background-repeat: no-repeat;
   background-size: cover;
@@ -71,6 +71,8 @@ body {
 @media screen and (min-width: 768px) {
   .accessories {
     min-width: 768px;
+    padding-top: 120px;
+    padding-bottom: 120px;
     background-image: url(../src/images/accesories/background-tablet.jpg);
     background-repeat: no-repeat;
   }
@@ -106,6 +108,8 @@ body {
     display: flex;
     flex-wrap: wrap;
     gap: 38px;
+    margin-left: auto;
+    justify-content: center;
   }
 }
 
