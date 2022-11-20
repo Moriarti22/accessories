@@ -182,18 +182,60 @@ body {
     margin-left: 102px;
     font-size: 56px;
     line-height: 1.18;
+    margin-bottom: 51px;
+  }
+}
+
+.accessories-title::before {
+  content: "";
+  position: absolute;
+  left: -15px;
+  right: -18px;
+  bottom: -35px;
+  top: 25px;
+  margin-bottom: 10px;
+  background-image: url(../src/images/icons/icon-line-mobile-1.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+@media screen and (min-width: 768px) {
+  .accessories-title::before {
+    left: -142px;
+    right: -40px;
+    top: 55px;
+    background-image: url(../src/images/icons/icon-line-tablet-1.png);
+  }
+}
+@media screen and (min-width: 1280px) {
+  .accessories-title::before {
+    background-image: url(../src/images/icons/icon-line-desktop-1.png);
   }
 }
 
 .accessories-title::after {
   content: "";
   position: absolute;
-  width: 100%;
-  left: -16px;
-  bottom: 0;
-  height: 8px;
+  left: -15px;
+  right: -18px;
+  bottom: -43px;
+  top: 30px;
   background-image: url(../src/images/icons/icon-line-mobile-2.png);
   background-repeat: no-repeat;
+  background-size: contain;
+}
+@media screen and (min-width: 768px) {
+  .accessories-title::after {
+    left: -142px;
+    right: -40px;
+    bottom: -35px;
+    top: 63px;
+    background-image: url(../src/images/icons/icon-line-tablet-2.png);
+  }
+}
+@media screen and (min-width: 1280px) {
+  .accessories-title::after {
+    background-image: url(../src/images/icons/icon-line-desktop-2.png);
+  }
 }
 
 .accessories-thumb {
