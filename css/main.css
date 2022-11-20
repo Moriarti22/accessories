@@ -265,8 +265,6 @@ body {
   font-size: 16px;
   line-height: 1.19;
   font-family: inherit;
-  min-width: 124px;
-  border: 1px solid var(--light-green-color);
   border-radius: 16px;
 }
 

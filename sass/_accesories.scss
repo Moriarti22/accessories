@@ -9,7 +9,7 @@
   background-repeat: no-repeat;
   background-size: cover;
 
-  @media screen and (min-width: $tablet) {
+  @include tablet {
     min-width: $tablet;
     padding-top: 120px;
     padding-bottom: 120px;
@@ -18,13 +18,12 @@
     background-size: cover;
   }
 
-  @media screen and (min-width: $desktop) {
+  @include desktop {
     min-width: $desktop;
     background-image: url(../src/images/accesories/background-desktop.jpg);
     background-repeat: no-repeat;
     background-size: cover;
   }
-
 }
 
 .accessories-filter {
@@ -34,7 +33,7 @@
   gap: 24px;
   flex-wrap: wrap;
   margin-bottom: 32px;
-  @media screen and (min-width: $tablet) {
+  @include tablet {
     width: 100%;
     gap: 0px;
     flex-wrap: nowrap;
@@ -42,7 +41,7 @@
     margin-bottom: 72px;
   }
 
-  @media screen and (min-width: $desktop) {
+  @include desktop {
     gap: 44px;
     justify-content: center;
   }
@@ -52,48 +51,44 @@
   font-weight: 700;
   font-size: 16px;
   line-height: 1.19;
-  
+
   font-family: inherit;
-  min-width: 124px;
-  border: 1px solid var(--light-green-color);
   border-radius: 16px;
 }
 
-
 .accessories-list {
-  @media screen and (min-width: $tablet) {
+  @include tablet {
     display: flex;
     flex-wrap: wrap;
     row-gap: 24px;
     column-gap: 38px;
     justify-content: center;
   }
-  @media screen and (min-width: $desktop) {
+  @include desktop {
     column-gap: 20px;
     justify-content: flex-start;
   }
 }
 
 .accessories-item {
-  @media screen and (min-width: $tablet) {
+  @include tablet {
     width: 285px;
   }
 }
 
-.accessories-item:nth-child(2n+2) {
+.accessories-item:nth-child(2n + 2) {
   display: none;
-  @media screen and (min-width: $tablet) {
+  @include tablet {
     display: flex;
   }
 }
 
 .accessories-item:not(:last-child) {
   margin-bottom: 28px;
-  @media screen and (min-width: $tablet) {
+  @include tablet {
     margin-bottom: 0px;
   }
 }
-
 
 .accessories-title {
   position: relative;
@@ -104,7 +99,7 @@
   margin-left: -2px;
   margin-bottom: 27px;
 
-  @media screen and (min-width: $tablet) {
+  @include tablet {
     margin-left: 102px;
     font-size: 56px;
     line-height: 1.18;
@@ -112,10 +107,8 @@
   }
 }
 
-
-
 .accessories-title::before {
-  content: '';
+  content: "";
   position: absolute;
   left: -15px;
   right: -18px;
@@ -126,20 +119,20 @@
   background-repeat: no-repeat;
   background-size: contain;
 
-  @media screen and (min-width: $tablet) {
+  @include tablet {
     left: -142px;
     right: -40px;
     top: 55px;
     background-image: url(../src/images/icons/icon-line-tablet-1.png);
   }
 
-  @media screen and (min-width: $desktop) {
+  @include desktop {
     background-image: url(../src/images/icons/icon-line-desktop-1.png);
   }
 }
 
 .accessories-title::after {
-  content: '';
+  content: "";
   position: absolute;
   left: -15px;
   right: -18px;
@@ -149,7 +142,7 @@
   background-repeat: no-repeat;
   background-size: contain;
 
-  @media screen and (min-width: $tablet) {
+  @include tablet {
     left: -142px;
     right: -40px;
     bottom: -35px;
@@ -157,7 +150,7 @@
     background-image: url(../src/images/icons/icon-line-tablet-2.png);
   }
 
-  @media screen and (min-width: $desktop) {
+  @include desktop {
     background-image: url(../src/images/icons/icon-line-desktop-2.png);
   }
 }
