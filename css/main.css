@@ -260,14 +260,6 @@ body {
   }
 }
 
-.accessories-button {
-  font-weight: 700;
-  font-size: 16px;
-  line-height: 1.19;
-  font-family: inherit;
-  border-radius: 16px;
-}
-
 @media screen and (min-width: 768px) {
   .accessories-list {
     display: flex;
