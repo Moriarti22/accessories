@@ -16,7 +16,7 @@
     background-image: url(../src/images/accesories/background-tablet.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-  }
+    }
 
   @include desktop {
     min-width: $desktop;
@@ -159,7 +159,6 @@
   position: relative;
   overflow: hidden;
   border-radius: 12px;
-  border: 1px solid var(--li);
   box-shadow: 0px 4px 4px rgba(134, 229, 67, 0.2);
 }
 
@@ -182,6 +181,11 @@
 .accessories-link:hover .accessories-txt,
 .accessories-link:focus .accessories-txt {
   transform: translateY(0%);
+}
+
+.accessories-link:hover .accessories-thumb,
+.accessories-link:focus .accessories-thumb {
+  border: 1px solid var(--light-green-color);
 }
 
 .accessories-data {
