@@ -61,6 +61,24 @@
   }
 }
 
+.accessories-list::after {
+  content: '';
+  display: flex;
+  width: 168px;
+  height: 16px;
+  margin: 0 auto;
+  margin-top: 24px;
+  background-image: url(../src/images/icons/slider.png);
+  @include tablet {
+    margin-top: 32px;
+  }
+
+  @include desktop {
+    background-image: url(../src/images/icons/slider-desktop.png);
+    width: 104px;
+  }
+}
+
 .accessories-item {
   @include tablet {
     width: 285px;
@@ -74,10 +92,17 @@
   }
 }
 
-.accessories-item:not(:last-child) {
-  margin-bottom: 28px;
+.accessories-item:nth-child(-n + 10) {
+  margin-bottom: 24px;
   @include tablet {
     margin-bottom: 0px;
+  }
+}
+
+.accessories-item:nth-child(n + 13) {
+  display: none;
+  @include desktop {
+    display: flex;
   }
 }
 
